@@ -1,0 +1,31 @@
+{
+  "name": "demo3",
+  "version": "1.0.0",
+  "description": "A POC for ingesting Assessment PDF reports into Supabase vector store using Ollama and LangChain",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "ingest": "node ingest.js",
+    "qa": "node qa.js",
+    "summarize": "node summarize.js",
+    "dev": "node"
+  },
+  "dependencies": {
+    "@langchain/community": "^0.2.10",
+    "@langchain/openai": "^0.2.11",
+    "@supabase/supabase-js": "^2.44.3",
+    "dotenv": "^16.4.5",
+    "langchain": "^0.2.10",
+    "pdf-parse": "^1.1.1"
+  },
+  "keywords": [
+    "rag",
+    "supabase",
+    "ollama",
+    "pdf",
+    "ai",
+    "langchain"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
